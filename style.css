@@ -1,0 +1,174 @@
+/* style.css */
+
+/* Estilos para o cabeçalho */
+body {
+background-color: #f192b7;
+font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #da276b;
+    font-size: 26px;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #e0407e;
+    font-style: italic;
+    text-align: center;
+    font-size: 22px;
+  }
+  
+  /* Estilos para os sabores */
+  h3 {
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+  }
+
+.container {
+    margin-left: 150px;
+}
+  /* Estilos para as imagens */
+.images {
+    padding-right: 380px;
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: auto;
+    margin-bottom: 40px;
+    float: right; /* Alinha as imagens à esquerda */
+}
+.title {
+    color: #030303; 
+    font-size: 18px;
+    text-align: center;
+   padding-left: 270px; /* Adicionei um espaço à esquerda para evitar que o texto fique atrás das imagens */
+}
+.ingredientes {
+    color: #080808;
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding-left: 340px; /* Adicionei um espaço à esquerda para evitar que o texto fique atrás das imagens */
+    clear: left; /* Limpa o float anterior, para que os elementos de lista subsequentes não fiquem ao lado da imagem */
+}
+.images1 {
+    padding-right: 380px;
+    padding-left: 100px;
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: auto;
+    margin-bottom: 40px;
+    float: right;  /* Alinha as imagens à esquerda */
+}
+.title1 {
+    color: #030303;
+    font-size: 18px;
+    text-align: center;
+    padding-left: 300px;
+    padding-top: 10px;
+}
+
+.ingredientes1 {
+    color: #080808;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding-left: 330px; /* Adicionei um espaço à esquerda para evitar que o texto fique atrás das imagens */
+    clear: left;  /* Limpa o float anterior, para que os elementos de lista subsequentes não fiquem ao lado da imagem */
+}
+
+.images2 {
+    padding-right: 380px;
+    padding-left: 100px;
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: auto;
+    margin-bottom: 40px;
+    float: right; 
+}
+.title2 {
+    padding-top: 10px;
+    color: #030303;
+    font-size: 18px;
+    text-align: center;
+    padding-left: 300px; 
+}
+.ingredientes2 {
+    color: #080808;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding-left: 330px;
+    clear: left; 
+}
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+    
+}
+.wrap {
+    flex-direction: column;
+}
+
+.text {
+    color: #080808;
+    font-size: 18px;
+    margin-left: 380px; 
+    
+}
+.horario {
+    color: #080808;
+    font-size: 16px;
+    margin-left: 450px; 
+    width: 300px;
+}
+
+.text1 {
+    color: #080808;
+    font-size: 18px;
+    margin-right: 340px; 
+    
+}
+
+.valor {
+    color: #080808;
+    font-size: 16px;
+    margin-right: 40px; 
+    width: 300px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    
+}
+.wrap1 {
+    flex-direction: column;
+}
+.text2{
+    color: #080808;
+    font-size: 18px;
+    margin-left: 250px; 
+    
+}
+/* Estilos para a entrega */
+.entrega {
+    color: #080808;
+    font-size: 16px;
+    margin-left: 450px; 
+    width: 300px;
+}
+.text3{
+    color: #080808;
+    font-size: 18px;
+    margin-right: 220px; 
+    
+}
+.contato {
+    color: #080808;
+    font-size: 16px;
+    margin-right: 0px; 
+    width: 300px;
+}
